@@ -8,7 +8,7 @@ const authRouter = require("./routes/auth");
 // INIT
 const PORT = 3000;
 const app = express();
-const DB = "mongodb+srv://armutyus:armut1991@cluster0.qszek4b.mongodb.net/?retryWrites=true&w=majority"
+const DB = "mongodb+srv://armutyus:armut1991@cluster0.qszek4b.mongodb.net/?retryWrites=true&w=majority";
 
 // middleware
 app.use(express.json());
