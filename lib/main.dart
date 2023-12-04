@@ -1,11 +1,15 @@
 import 'package:amazon_clone_project/constants/global_variables.dart';
+import 'package:amazon_clone_project/providers/user_provider.dart';
 import 'package:amazon_clone_project/router.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import 'feature/auth/screens/auth_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MultiProvider(providers: [
+    ChangeNotifierProvider(create: (context) => UserProvider()),
+  ], child: const MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -20,8 +24,7 @@ class MyApp extends StatelessWidget {
             elevation: 0,
             iconTheme: IconThemeData(
               color: Colors.black,
-            )
-        ),
+            )),
         colorScheme: const ColorScheme.light(
           primary: GlobalVariables.secondaryColor,
         ),
