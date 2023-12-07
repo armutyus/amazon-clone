@@ -1,4 +1,4 @@
-import 'package:amazon_clone_project/feature/auth/services/auth_services.dart';
+import 'package:amazon_clone_project/features/auth/services/auth_services.dart';
 import 'package:amazon_clone_project/widgets/custom_button.dart';
 import 'package:amazon_clone_project/constants/global_variables.dart';
 import 'package:amazon_clone_project/widgets/custom_text_field.dart';

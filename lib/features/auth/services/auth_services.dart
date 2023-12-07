@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:amazon_clone_project/constants/error_handling.dart';
 import 'package:amazon_clone_project/constants/global_variables.dart';
 import 'package:amazon_clone_project/constants/utils.dart';
-import 'package:amazon_clone_project/feature/home/screens/home_screen.dart';
+import 'package:amazon_clone_project/features/home/screens/home_screen.dart';
 import 'package:amazon_clone_project/models/user.dart';
 import 'package:amazon_clone_project/providers/user_provider.dart';
 import 'package:flutter/material.dart';

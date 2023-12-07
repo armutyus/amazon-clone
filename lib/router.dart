@@ -1,5 +1,5 @@
-import 'package:amazon_clone_project/feature/auth/screens/auth_screen.dart';
-import 'package:amazon_clone_project/feature/home/screens/home_screen.dart';
+import 'package:amazon_clone_project/features/auth/screens/auth_screen.dart';
+import 'package:amazon_clone_project/features/home/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 Route<dynamic> generateRoute(RouteSettings routeSettings) {
